@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kablammo', cursive;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+}
+
+.heading {
+    padding: 10px;
+    text-align: center;
+    color: cadetblue;
+    font-size: 2.5rem;
+}
+
+.new-year-date {
+    padding: 8px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: orchid;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+}
+
+.column div {
+    width: 10%;
+    margin: 1%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+button {
+    height: 50px;
+    width: 75px;
+    margin: 15%;
+    font-size: 2rem;
+    border-radius: 10px;
+}
